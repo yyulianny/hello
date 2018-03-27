@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>Sample JavaScript</title>
+<script>
+
+var george = 1;
+var fred = "Hi";
+
+function doStuff() {
+ alert(george);
+ george = "Boo";
+ fred = "Howl";
+}
+
+function doSomethingElse() {
+ alert(fred);
+ var george = "Yum";
+ var fred = "Delicious!";
+}
+
+</script>
+</head>
+<body>
+<p><a href="#" onClick="doStuff();">Calling doStuff()</a></p> 
+
+<!-- <p><a href="javascript:doSomethingElse();">Calling doSomethingElse()</a></p> -->
+<p><a href="#" onClick="doSomethingElse();">Calling doSomethingElse()</a></p>
+
+
+</body>
+</html>
+
